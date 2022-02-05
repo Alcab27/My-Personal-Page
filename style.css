@@ -83,6 +83,8 @@ html{
   justify-content: center;
   align-items: center;
   border-radius: 3px;
+  padding-top: 8px;
+  padding-bottom: 8px;
 }
 a{
   text-decoration: none;
@@ -99,6 +101,7 @@ figcaption{
   justify-content: space-around;
   align-items: center;
   border-radius: 3px;
+  padding: 3px;
 }
 .img_insta img{
   width: 90px;
@@ -137,6 +140,6 @@ figcaption{
   width: 115px;
 }
 .content_ilus figure figcaption{
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   text-align: center;
 }
