@@ -48,7 +48,7 @@ html{
 
 .container-main{
   width: 100%;
-  height: 1200px;
+  height: auto;
   background-color: var(--primary-color);
   display: flex;
   /* flex-wrap: wrap; */
@@ -62,7 +62,8 @@ html{
 .habilidades-foto,
 .habilidades-ilus{
   width: 90%;
-  height: 400px;
+  height: auto;
+  /* height: auto; */
   background-color: var(--secondary-color);
   margin-bottom: 10px;
   padding: 10px;
@@ -72,4 +73,70 @@ html{
   flex-direction: column;
   align-items: center;
   /* justify-content: center; */
+}
+.content_prog{
+  height: 90%;
+  width: 90%;
+  background-color: var(--usual-color1);
+  margin: 10px 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+}
+a{
+  text-decoration: none;
+}
+figcaption{
+  color: black;
+}
+.content_foto{
+  width: 90%;
+  height: 90%;
+  background-color: var(--usual-color1);
+  margin: 3px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 3px;
+}
+.img_insta img{
+  width: 90px;
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.content_foto p{
+  font-size: 1.5rem;
+  text-align: center;
+}
+.contenedor_ilus{
+  width: 95%;
+  height: 34%;
+  /* background-color: aqua; */
+  margin: 5px;
+  display: flex;
+  align-items: center;
+}
+.content_ilus{
+  width: 50%;
+  /* height: auto; */
+  background-color: var(--usual-color1);
+  /* background-color: red; */
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 7px;
+  border-radius: 3px;
+}
+.alch{
+  height: 100px;
+}
+.content_ilus figure img{
+  width: 115px;
+}
+.content_ilus figure figcaption{
+  font-size: 1.2rem;
+  text-align: center;
 }
