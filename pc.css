@@ -1,0 +1,13 @@
+:root{
+  --Main-Pink: #ef99ae;
+  --Secondary-Pink: #f5c6cf;
+  --Third-Pink: #f3cdd4;
+  --Fourth-Pink: #c79398;
+  --White: #fffdfe;
+  --Black: #222425;
+}
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
