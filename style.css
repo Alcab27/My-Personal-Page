@@ -13,6 +13,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  font-family: 'Work Sans', sans-serif;
 }
 
 html {
@@ -25,10 +26,13 @@ html {
   justify-content: space-between;
   padding: 0px 10px;
   background-color: var(--Secondary-Pink);
+  font-size: 1.8rem;
+  font-weight: 400;
 }
 
 .logo img {
   width: 100px;
+  margin-left: 45px;
 }
 
 .links ul {
@@ -45,6 +49,7 @@ html {
 .links ul li a {
   text-decoration: none;
   color: black;
+  cursor: pointer;
 }
 
 .initial-content { /*header*/
@@ -55,8 +60,56 @@ html {
   background: linear-gradient(90deg, rgba(243,205,212,1) 38%, rgba(241,179,185,1) 94%);
 }
 
+.column-left{
+  display: flex;
+  flex-direction: column;
+  align-items: self-start;
+  justify-content: center;
+  margin-left:  278px;
+  margin-top: 20px;
+  width: 50%;
+  padding: 12px;
+}
+
+.column-left img{
+  height: 2px;
+  width: 412px;
+}
+
+/* .column-left .line-sup{
+  width: 412px;
+}
+
+.column-left .line-inf{
+  width: 412px;
+} */
+
+.column-left h1{
+  /* font-weight: bold; */
+  font-size: 4rem;
+  margin: 10px 0;
+}
+
+.column-left p{
+  font-size: 2rem;
+  width: 400px;
+  margin: 40px 0;
+}
+
+.column-left .principal-button{
+  background-color: var(--Black);
+  padding: 10px 25px;
+  color: var(--White);
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.column-right{
+  width: 50%;
+}
 .column-right img {
-  width: 300px;
+  width: 430px;
+  margin-left: 51px;
 }
 
 .proyects{/*scection*/
