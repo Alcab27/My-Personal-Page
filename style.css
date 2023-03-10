@@ -136,7 +136,7 @@ html {
 }
 
 .column p {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
 }
 
 .column button {
@@ -155,11 +155,12 @@ html {
 .column1-content {
   background-color: var(--White);
   justify-content: space-around;
-  padding: 85px 60px;
+  padding: 115px 60px;
 }
 
 .column1-content p {
   color: var(--Main-Pink);
+  margin-top: 28px;
 }
 
 .rectangle-column1 {
@@ -186,7 +187,7 @@ html {
 
 .column3 button{
   background-color: var(--Third-Pink);
-  color: black;
+  color: var(--Main-Pink);
   border: 2px solid var(--Main-Pink);
   border-radius: 3px;
 }
